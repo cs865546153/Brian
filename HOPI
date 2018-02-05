@@ -1,7 +1,12 @@
 NODE.JS
 1. JS runtime, event-driven, non-blocking I/O model(按顺序)
+
+
   
 http://blog.csdn.net/jrn1012/article/details/52278775 基于AdminLTE的开发框架-AdminEAP
+http://www.cssmoban.com/cssthemes/7121.shtml 标准bootstrap3后台管理系统模板
+http://www.cssmoban.com/cssthemes/7052.shtml
+
 http://blog.cloudera.com/blog/2015/06/architectural-patterns-for-near-real-time-data-processing-with-apache-hadoop/
 https://www.ibm.com/support/knowledgecenter/zh/SSAW57_8.5.5/com.ibm.websphere.nd.doc/ae/rsec_SPNEGO_kerb.html
 
