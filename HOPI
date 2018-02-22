@@ -1,6 +1,10 @@
 NODE.JS
 1. JS runtime, event-driven, non-blocking I/O model(按顺序)
 
+ps aux |grep cloudera-scm-server
+netstat -ano |grep 7180
+sudo tail -f var/log/cloudera-scm-server/cloudera-scm-server.out
+search file: sudo rpm -ql mysql
 
   
 http://blog.csdn.net/jrn1012/article/details/52278775 基于AdminLTE的开发框架-AdminEAP
