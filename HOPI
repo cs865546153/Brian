@@ -3,6 +3,9 @@ NODE.JS
 
 Node.js起步 -- （1） http://www.cnblogs.com/imwtr/p/4350282.html
 node.js基于express框架搭建一个简单的注册登录Web功能  https://www.cnblogs.com/Leo_wl/p/4361289.html
+http://blog.csdn.net/qidong7/article/details/52373480
+
+
 ps aux |grep cloudera-scm-server
 netstat -ano |grep 7180
 sudo tail -f var/log/cloudera-scm-server/cloudera-scm-server.out
