@@ -1,9 +1,9 @@
 NODE.JS
 1. JS runtime, event-driven, non-blocking I/O model(按顺序)
 
-Node.js起步 -- （1） http://www.cnblogs.com/imwtr/p/4350282.html
-node.js基于express框架搭建一个简单的注册登录Web功能  https://www.cnblogs.com/Leo_wl/p/4361289.html
-http://blog.csdn.net/qidong7/article/details/52373480
+Node.js   http://www.cnblogs.com/imwtr/category/668138.html
+         http://blog.csdn.net/qidong7/article/details/52373480
+Session&Cookies: https://www.cnblogs.com/andy-zhou/p/5360107.html
 
 
 ps aux |grep cloudera-scm-server
