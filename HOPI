@@ -5,6 +5,8 @@ Node.js   http://www.cnblogs.com/imwtr/category/668138.html
          http://blog.csdn.net/qidong7/article/details/52373480
 Session&Cookies: https://www.cnblogs.com/andy-zhou/p/5360107.html
 
+https://github.com/1638824607/Navicat-Premiumls
+
 
 ps aux |grep cloudera-scm-server
 netstat -ano |grep 7180
