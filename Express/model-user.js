@@ -96,7 +96,7 @@ exports.edit = function (req, res) {
 };
 
 exports.update = function (req, res) {
-    var roleid = req.body.role_id;
+    var admin_id = req.body.admin_id;
     var change = new Array();
     if (req.body.roleid) {
         change = change.concat("roleid='" + req.body.role_id + "'");
@@ -113,7 +113,7 @@ exports.update = function (req, res) {
 
     async.series({
         one: function (done) {
-            test.index("UPDATE `admins` SET " + change + " WHERE `roleid` = " + admin_id, function (list) {
+            test.index("UPDATE `admins` SET " + change + " WHERE `admin_id` = " + admin_id, function (list) {
                 done(null, list);
             });
         }
