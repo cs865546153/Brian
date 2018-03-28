@@ -6,7 +6,7 @@ Node.js   http://www.cnblogs.com/imwtr/category/668138.html
 Session&Cookies: https://www.cnblogs.com/andy-zhou/p/5360107.html
 
 https://github.com/1638824607/Navicat-Premiumls
-
+https://github.com/shadowsocks/shadowsocks/wiki/Configuration-via-Config-File          Configuration Shadowsock
 
 ps aux |grep cloudera-scm-server
 netstat -ano |grep 7180
