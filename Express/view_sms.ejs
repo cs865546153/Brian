@@ -40,6 +40,14 @@
                         <td><%= value['item_name'] %></td>
                         <td><%= value['item_price'] %></td>
                         <td><%= value['item_provider'] %></td>
+                        <td>
+                            <button type="button" class="btn btn-info" onclick="window.location.href='/editUser?item_id=<%=value['item_id']%>';return false;">
+                                <span class="glyphicon glyphicon-pencil"></span> 编辑
+                            </button>
+                            <button type="button" class="btn btn-warning" onclick="window.location.href='/delUser?item_id=<%=value['item_id']%>';return false;">
+                                <span class="glyphicon glyphicon-trash"></span> 删除
+                            </button>
+                        </td>
                     </tr>
                     <% }) %>
                     </tbody>
