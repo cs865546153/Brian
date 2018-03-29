@@ -1,0 +1,57 @@
+<%- include header %>
+<div class="container col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div class="row">
+        <%- include left %>
+        <div class="col-lg-10 col-md-10 col-sm-9 col-xs-9">
+            <ol class="breadcrumb">
+                <li><a href="#">首页</a></li>
+                <li><a href="#">系统管理</a></li>
+                <li class="active">商品管理</li>
+            </ol>
+            <div class="row">
+                <form role="form" class="form-inline" method="get" action="">
+                    <div class="form-group">
+                        <select name="item_provider" class="form-control">
+                            <option value="">所有</option>
+                            <option <% if(item_provider=='KFC'){ %>selected<% } %> value="KFC">KFC</option>
+                            <option <% if(item_provider=='MDL'){ %>selected<% } %> value="MDL">MDL</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="item_name" class="form-control" placeholder="搜索商品名称" value="<%=item_name%>">
+                    </div>
+                    <button type="submit" class="btn btn-default">提交</button>
+                </form>
+            </div>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>item_id</th>
+                        <th>item_name</th>
+                        <th>item_price</th>
+                        <th>item_provider</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <% smslist.forEach(function(value){ %>
+                    <tr>
+                        <td><%= value['item_id'] %></td>
+                        <td><%= value['item_name'] %></td>
+                        <td><%= value['item_price'] %></td>
+                        <td><%= value['item_provider'] %></td>
+                    </tr>
+                    <% }) %>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-lg-12 text-center">
+                <ul class="pagination">
+                    <%- include page %>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
+<%- include footer %>
