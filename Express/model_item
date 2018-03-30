@@ -56,3 +56,40 @@ exports.index = function (req, res) {
 
     })
 };
+
+
+
+
+exports.add = function (req, res) {
+    var key = new Array();
+    var value = new Array();
+
+    console.log(req.body);
+
+    if (req.body.item_provider) {
+        key = key.concat("item_provider");                               //insert to the table admins.  key = roleid,  value = role_id
+        value = value.concat("'" + req.body.item_provider + "'");
+    }
+    if (req.body.item_name) {
+        key = key.concat("item_name");
+        value = value.concat("'" + req.body.item_name + "'");
+    }
+    if (req.body.item_pirce) {
+        key = key.concat("item_pirce");
+        value = value.concat("'" + req.body.item_pirce + "'");
+    }
+    if (req.body.item_pirce_type) {
+        key = key.concat("item_pirce_type");
+        value = value.concat("'" + req.body.item_pirce_type + "'");
+    }
+
+    async.series({
+        one: function (done) {
+            test.index("INSERT INTO `items` (" + key.join(",") + ") VALUES (" + value.join(",") + ")", function (list) {
+                done(null, list);
+            });
+        }
+    }, function (error, result) {
+        res.redirect('/item');
+    });
+};
