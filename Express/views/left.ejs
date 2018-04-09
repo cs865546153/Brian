@@ -1,0 +1,44 @@
+<div class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
+    <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title text-center">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#">
+                        系统管理
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in">
+                <% if(locals.auths.indexOf("user") >= 0){ %>
+                <a href="/user" class="list-group-item"><span class="badge pull-right"></span>用户管理</a>
+                <% } %>
+                
+                <% if(locals.auths.indexOf("role") >= 0){ %>
+                <a href="/role" class="list-group-item">角色管理</a>
+                <% } %>
+
+                <% if(locals.auths.indexOf("item") >= 0){ %>
+                    <a href="/item" class="list-group-item">商品管理</a>
+                <% } %>   
+            </div>
+        </div>
+
+
+
+        <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title text-center">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#">
+                            业务管理
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse in">
+                    <% if(locals.auths.indexOf("item") >= 0){ %>
+                    <a href="/order" class="list-group-item">订单请求</a>
+                    <% } %>                    
+                </div>
+        </div>
+
+    </div>
+</div>
