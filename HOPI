@@ -23,34 +23,6 @@ https://www.ibm.com/support/knowledgecenter/zh/SSAW57_8.5.5/com.ibm.websphere.nd
 
 https://wenku.baidu.com/view/18abda73700abb68a882fb3c.html
 https://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.6.3/bk_command-line-installation/content/ch_getting_ready_chapter.html 
-Cloudera Basics
-•	Cloudera Hadoop Essentials  (series of videos introducing Hadoop, approx. 2.5 hours)
-o	 https://www.cloudera.com/more/training/library/hadoop-essentials.html
-•	Cloudera Kerberos Security
-o	https://collaborate.citi.net/groups/hopi/blog/2017/01/19/securitykeytabs-and-kerberos-in-clouderahopi
-•	Introduction to Cloudera Manager
-o	https://www.cloudera.com/documentation/enterprise/5-7-x/topics/cm_intro_primer.html
-Hopi Specific
-•	List of Hopi Machines
-o	https://collaborate.citi.net/docs/DOC-477643
-•	List of Hopi Onboarded Applications
-o	In Progress
-•	How to order Keytabs
-o	In Progress
-•	Application Onboarding
-o	https://collaborate.citi.net/docs/DOC-449788
-•	Component Architecture
-o	https://collaborate.citi.net/docs/DOC-493617
-Cloudera Advanced Configuration
-•	Cloudera Service Role Assignments
-o	https://collaborate.citi.net/docs/DOC-488713
-•	Cloudera Installation Guide
-o	https://collaborate.citi.net/docs/DOC-168760
-Advanced Resources
-•	CATE Hadoop Engineering List of Reference Documents
-o	https://collaborate.citi.net/docs/DOC-226351
-•	Cloudera Packaging
-o	https://www.cloudera.com/documentation/enterprise/release-notes/topics/cdh_vd_cdh_package_tarball_57.html#topic_3
 
 Intro to HDFS :  http://hadoopilluminated.com/hadoop_illuminated/HDFS_Intro.html
 HDFS Snapshots: https://archive.cloudera.com/cdh5/cdh/5/hadoop/hadoop-project-dist/hadoop-hdfs/HdfsSnapshots.html
