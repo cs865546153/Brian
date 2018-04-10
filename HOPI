@@ -29,9 +29,7 @@ HDFS Snapshots: https://archive.cloudera.com/cdh5/cdh/5/hadoop/hadoop-project-di
 Cloudera Manager Snapshot Policies: https://www.cloudera.com/documentation/enterprise/5-9-x/topics/cm_bdr_snapshots.html
 How Snapshots work (Hortonworks): https://community.hortonworks.com/articles/60546/hdfs-snapshots-1-overview.html
 Hadoop Intro Videos : https://www.cloudera.com/more/training/library/hadoop-essentials.html
-Apply access to ICG JIRA: https://cedt-confluence.nam.nsroot.net/confluence/display/263/Access+to+ICG+JIRA
-Log in JIRA:  https://cedt-icg-jira.nam.nsroot.net/jira/secure/Dashboard.jspa
-HOPI Repositories on bitbucket:     https://cedt-icg-bitbucket.nam.nsroot.net/bitbucket/projects/ISTAE
+
 
 http://dongxicheng.org/mapreduce-nextgen/hadoop-yarn-install/  董的博客
 https://www.cloudera.com/documentation/enterprise/latest/topics/sg_sentry_overview.html
